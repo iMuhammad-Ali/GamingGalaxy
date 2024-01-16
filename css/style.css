@@ -1217,16 +1217,17 @@ ol {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.site-logo {
-		max-width: 130px;
+	.site-logo h3 {
+		font-size: 25px;
+		/* max-width: 130px; */
 	}
 
 	.main-menu {
-		margin-right: 25px;
+		margin-right: 15px;
 	}
 
 	.main-menu ul li a {
-		margin-left: 15px;
+		margin-left: 10px;
 	}
 
 	.user-panel {
@@ -1418,6 +1419,20 @@ ol {
 }
 
 @media only screen and (max-width: 479px) {
+	.header-section {
+		padding: 10px 0;
+	}
+
+	.site-logo h3 {
+		font-size: 20px;
+		margin: auto;
+	}
+
+	.site-logo svg {
+		width: 25px;
+		height: 25px;
+	}
+
 	.hero-slider .hs-item {
 		height: auto;
 		padding: 150px 0;
@@ -1476,4 +1491,16 @@ ol {
 	.page-info-section .pi-content h2 {
 		font-size: 40px;
 	}
+}
+.site-logo svg {
+	width: 36px;
+	height: 36px;
+}
+
+.site-logo h3 {
+	color: white;
+}
+
+.site-logo span {
+	color: #ffb320;
 }
